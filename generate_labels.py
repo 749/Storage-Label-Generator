@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 LABEL_WIDTH = 696  # Total width for the image (includes two labels)
 LABEL_HEIGHT = 75  # Height of each label
 SINGLE_LABEL_WIDTH = LABEL_WIDTH // 2  # Width of a single label
-LABEL_FONT = "NotoSansMono-VariableFont_wdth,wght.ttf"  # Path to the font file
+LABEL_FONT = "font/NotoSansMono-VariableFont_wdth,wght.ttf"  # Path to the font file
 
 def clear_labels_folder():
     """Clears the labels folder before generating new labels."""
